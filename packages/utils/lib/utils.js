@@ -1,7 +1,10 @@
-'use strict';
+#! /usr/bin/env node
+// 'use strict';
 
-module.exports = utils;
+module.exports = utils
 
 function utils() {
-    // TODO
+  return "Hello from utils"
 }
+utils()
+console.log("utils")
